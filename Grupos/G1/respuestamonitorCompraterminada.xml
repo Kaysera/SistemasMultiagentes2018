@@ -1,0 +1,38 @@
+<mensaje>
+
+    <Conexion>
+    
+        <emisor>
+            <direccion>
+            <ip>192.168.1.2</ip>
+            <puerto>80</puerto>
+            </direccion>
+            <rol>Cliente</rol>
+        </emisor>
+        <receptor>
+            <direccion>
+            <ip>192.168.1.1</ip>
+            <puerto>80</puerto>
+            </direccion>
+            <rol>Monitor</rol>            
+        </receptor>
+
+    </Conexion>
+
+    <cuerpo orden="Respuesta compra terminada">
+        <repuesta>Confirmacion del pedido hecha</respuesta>
+        <Hora>20:13:00</Hora>  
+        <NArtículos>2</NArtículos> 
+        <ListadeProductos>
+            <Producto>
+                <Nombre>Bolsa de patatas 1kg</Nombre>
+                <Cantidad>2</Cantidad>
+            </Producto>
+            <Producto>
+                <Nombre>Botella de agua 1l</Nombre>
+                <Cantidad>1</Cantidad>
+            <Producto>
+        </ListadeProductos>
+    </cuerpo>
+
+</mensaje>
