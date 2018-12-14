@@ -15,6 +15,6 @@
 		<rol>Monitor</rol>
 	</receptor>
 	<cuerpo orden="Peticion salir de la tienda">
-		<idcliente>10</idcliente>
+		<idCliente>10</idCliente>
 	</cuerpo>
 </mensaje>
